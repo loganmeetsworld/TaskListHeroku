@@ -41,6 +41,10 @@ h2 {
   color: #F38630;
 }
 
+.text_field {
+  border: 5px;
+}
+
 .create_form {
   position: relative;
   padding-bottom: 30px;
