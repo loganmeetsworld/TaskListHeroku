@@ -10,18 +10,6 @@ body {
   height: 100%;
 }
 
-body::after {
-  content: "";
-  background: url("paper.png");
-  opacity: 0.7;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;   
-}
-
 table {
   display: flex; 
   justify-content: center; 
@@ -39,10 +27,6 @@ h2 {
   font-size: 40px;
   font-family: 'Leckerli One';
   color: #F38630;
-}
-
-.text_field {
-  border: 5px;
 }
 
 .create_form {
@@ -92,8 +76,9 @@ input[type=submit]:hover {
   color: #F38630;
 }
 
-input[type=text], input[type=date], select, textarea {
-  border: none;
+input[type=text], input[type=textarea], input[type=date], select, textarea {
+  border-color: black;
+  border-width: 1px;
   outline: none;
   font-family: 'Lato', sans-serif;
   font-size: 15px;
